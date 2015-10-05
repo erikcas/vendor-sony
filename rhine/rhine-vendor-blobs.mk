@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/sony/rhine/proprietary/vendor/lib/hw/camera.qcom.so:system/vendor/lib/hw/camera.qcom.so \
-    vendor/sony/rhine/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
     vendor/sony/rhine/proprietary/vendor/lib/libexcal_system.so:system/vendor/lib/libexcal_system.so \
     vendor/sony/rhine/proprietary/vendor/lib/libcacao_face.so:system/vendor/lib/libcacao_face.so \
     vendor/sony/rhine/proprietary/vendor/lib/libcacao_imageconv.so:system/vendor/lib/libcacao_imageconv.so \
@@ -46,10 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/vendor/lib/libexcal_core.so:system/vendor/lib/libexcal_core.so \
     vendor/sony/rhine/proprietary/vendor/lib/libexcal_system.so:system/vendor/lib/libexcal_system.so \
     vendor/sony/rhine/proprietary/vendor/lib/liblights-core.so:system/vendor/lib/liblights-core.so \
-    vendor/sony/rhine/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
-    vendor/sony/rhine/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/sony/rhine/proprietary/vendor/lib/libprotobuf-c.so:system/vendor/lib/libprotobuf-c.so \
-    vendor/sony/rhine/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/sony/rhine/proprietary/vendor/lib/libsomc_chokoballpal.so:system/vendor/lib/libsomc_chokoballpal.so \
     vendor/sony/rhine/proprietary/vendor/lib/libsony_chokoball.so:system/vendor/lib/libsony_chokoball.so \
     vendor/sony/rhine/proprietary/vendor/lib/libsys-utils.so:system/vendor/lib/libsys-utils.so \
