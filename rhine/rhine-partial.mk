@@ -91,6 +91,7 @@ PRODUCT_PACKAGES += \
 	keymaster_b01 \
 	keymaster_b02 \
 	keymaster_b03 \
+	keymaster_flist \
 	keymaster_mdt \
 	libpn544_fw \
 	nfc.msm8974 \
