@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/eagle/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/sony/eagle/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/sony/eagle/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/sony/eagle/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_LTO08BS0_liveshot.so:system/lib/libchromatix_imx134_LTO08BS0_liveshot.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_LTO08BS0_video_hd.so:system/lib/libchromatix_imx134_LTO08BS0_video_hd.so \
@@ -30,8 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/sony/eagle/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
     vendor/sony/eagle/proprietary/lib/libmmcamera_holly_eeprom.so:system/lib/libmmcamera_holly_eeprom.so \
-    vendor/sony/eagle/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/sony/eagle/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/eagle/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
@@ -44,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libmorpho_posture_detect.so:system/lib/libmorpho_posture_detect.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
-    vendor/sony/eagle/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/eagle/proprietary/vendor/camera/morpho_colorcorrection.cfg:system/vendor/camera/morpho_colorcorrection.cfg \
     vendor/sony/eagle/proprietary/vendor/camera/morpho_denoiser.cfg:system/vendor/camera/morpho_denoiser.cfg \
     vendor/sony/eagle/proprietary/vendor/camera/morpho_denoiser_subcam.cfg:system/vendor/camera/morpho_denoiser_subcam.cfg \
