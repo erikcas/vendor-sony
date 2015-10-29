@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
 	sensors \
 	ta_qmi_service \
 	tad_static \
-	wcnss_service \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
