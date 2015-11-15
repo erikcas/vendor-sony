@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/sony/rhine/proprietary/vendor/lib/hw/camera.qcom.so:system/vendor/lib/hw/camera.qcom.so \
+    vendor/sony/rhine/proprietary/vendor/lib/hw/camera.qcom.so:system/vendor/lib/hw/camera.vendor.rhine.so \
     vendor/sony/rhine/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
     vendor/sony/rhine/proprietary/vendor/lib/libexcal_system.so:system/vendor/lib/libexcal_system.so \
     vendor/sony/rhine/proprietary/vendor/lib/libcacao_face.so:system/vendor/lib/libcacao_face.so \
