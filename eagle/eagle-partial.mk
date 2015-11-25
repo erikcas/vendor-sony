@@ -16,4 +16,8 @@ PRODUCT_PACKAGES += \
 	btnvtool \
 	libpn547_fw \
 	sensors.msm8226 \
+	sensorsecond.msm8226 \
 	libyasalgo
+
+PRODUCT_COPY_FILES += \
+	vendor/sony/eagle/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so
