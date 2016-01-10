@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq (eagle, $(TARGET_DEVICE))
+ifeq (eagle eagle_dsds, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := btnvtool
 LOCAL_MODULE_OWNER := Sony Mobile
