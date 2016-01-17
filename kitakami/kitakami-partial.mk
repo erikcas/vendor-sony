@@ -23,6 +23,8 @@ PRODUCT_PACKAGES += \
 	cmnlib_b02 \
 	cmnlib_b03 \
 	cmnlib_mdt \
+	imsdatadaemon \
+	imsqmidaemon \
 	tzdtcpkctl_b00 \
 	tzdtcpkctl_b01 \
 	tzdtcpkctl_b02 \

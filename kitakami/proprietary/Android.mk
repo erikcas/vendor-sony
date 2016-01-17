@@ -121,6 +121,26 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := imsdatadaemon
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/bin/imsdatadaemon
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := imsqmidaemon
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/bin/imsqmidaemon
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX :=
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := tzdtcpkctl_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/tzdtcpkctl.b00
